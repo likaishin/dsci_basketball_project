@@ -1,0 +1,69 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "471ba565-7f70-4b79-b9f7-576f800c7356",
+   "metadata": {},
+   "source": [
+    "Classifying NBA Players into Performance Categories"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b55cb784-990d-4b32-b950-14108a690bcd",
+   "metadata": {},
+   "source": [
+    "Introduction:\n",
+    "       \n",
+    "   The objective of the project is to predict NBA players into performance categories based on their age, minutes played, and field goal attempts. The plan is to use regression analysis to estimate the average number of  points a player will score per game. We aim to answer the predictive question: Can one use a NBA player’s age, playing time, and field goal attempts to predict the number of points they will score per game on average? \n",
+    "       \n",
+    "   Only players who play center position will be included in the final dataset to ensure that the predicted performance is not influenced by their position, as different positions come with varying opportunities to score.\n",
+    "        \n",
+    "    The selected dataset shows NBA player stats during the regular season from 2022-2023. The dataset was created by an international organization called Creative Commons (CC) that aims to supply the world with knowledge that serves the public interest. The dataset is updated consistently to maintain the accuracy of the statistics.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4f6f114b-802f-4e82-a529-1b05cc6f9973",
+   "metadata": {},
+   "source": [
+    "Methods:\n",
+    "\n",
+    "    The variables/columns used will be Age (player’s age), MP (minutes played per game),and  FGA (field goal attempts) to create a predictive model for PTS (points per game scored by player).\n",
+    "    \n",
+    "    The dataset encompasses players with multiple positions, therefore in order to fairly analyze each player’s performance, the filter function will be used to only include players who play C (center).\n",
+    "        \n",
+    "    To visualize the relationships between age, minutes played per game, field goal attempts, and points scored per game, three scatterplots side-by-side to visualize the data. \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1dd86a87-78a5-44bd-bd23-acff6c7630b1",
+   "metadata": {},
+   "source": [
+    "Expected Outcomes and Significance\n",
+    "\n",
+    "    A clear trend in the number of points scored by a player per game in relation to their age, play time, and field goal attempts is expected to be found. These findings will hold significance when it comes to NBA player analysis for scouting and drafting.\n",
+    "    \n",
+    "    This dataset may lead to further questions such as: What other aspects of players can be measured to determine who will be the most successful? Can the founded patterns and trends be applied to improve basketball worldwide and increase the performance of international teams? By finding ways to numerically measure a player’s stats, we can refine the evaluation process in the NBA.\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "R",
+   "language": "R",
+   "name": "ir"
+  },
+  "language_info": {
+   "codemirror_mode": "r",
+   "file_extension": ".r",
+   "mimetype": "text/x-r-source",
+   "name": "R",
+   "pygments_lexer": "r",
+   "version": "4.2.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
